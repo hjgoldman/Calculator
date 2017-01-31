@@ -77,7 +77,7 @@
     double no1 = self.numberOneTextField.text.doubleValue;
     double no2 = self.numberTwoTextField.text.doubleValue;
     
-    double finalResult = [self add:no1 numberTwo:no2];
+    double finalResult = [self multi:no1 numberTwo:no2];
     
     self.resultLabel.text = [NSString stringWithFormat:@"%f",finalResult];
     
@@ -94,7 +94,7 @@
     double no1 = self.numberOneTextField.text.doubleValue;
     double no2 = self.numberTwoTextField.text.doubleValue;
     
-    double finalResult = [self add:no1 numberTwo:no2];
+    double finalResult = [self divi:no1 numberTwo:no2];
     
     self.resultLabel.text = [NSString stringWithFormat:@"%f",finalResult];
 
